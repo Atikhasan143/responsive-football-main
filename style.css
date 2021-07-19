@@ -90,6 +90,15 @@ header{
 .title-text-info {
     color: #FFFFFF;
     font-size: 64px;
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 207px;
+
+}
+.title-text-info :hover{
+    line-height: 80px;
+    cursor: pointer;
 }
 
 .link-button{
@@ -119,7 +128,10 @@ header{
 .top-banner-image img{
     width: 556px;
     height: 438px;
-    
+    margin-top: 67px;
+    margin-bottom: 86px;
+    /* margin-left: 102px; */
+    margin-right: 80px;
     background: url(1648334-world-cup-football-player-kick-off-football-kick-football-png-980_772_preview.png);
 transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -130,24 +142,21 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 
 
 /* --------------------------------------
-         players Card section style 
+         players Banner section style 
 ------------------------------------------*/
-
-
 .all-players{
-    margin: 90px 0 40px;
-}
-
-.players{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
     grid-row-gap: 30px;
-    grid-column-gap: 30px ;
+    margin-top: 60px;
+    margin-left: 180px;
+    margin-right: 180px;
 }
-
-
 .player-card{
     width: 330px;
+    height: 474;
+    
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
 }
 
