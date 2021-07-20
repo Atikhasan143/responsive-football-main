@@ -3,22 +3,23 @@
 -------------------------------------*/
 body{
     margin: 0px;
+    text-align: justify;
 
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-    font-family: 'Poppins', sans-serif;
-   
+    font-family: 'Poppins', sans-serif; 
 }
-.nav-container{
-    display: flex;
-    justify-content: center;
-}
+
 /*--------------------------------------------
         Style for Header Section
 ---------------------------------------------*/
 header{
     width: 100%;
-    height: 677px;
+    height: 750px;
     background-color: rgb(21, 23, 192);
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
 }
 
 .nav-style{
@@ -76,9 +77,9 @@ header{
     font-size: 16px;
 }
 
-.fixed{
+/* .fixed{
     margin: 5px;
-}
+} */
 .top-banner{
     display: flex;
     justify-content: space-between;
@@ -92,8 +93,10 @@ header{
     font-size: 64px;
     width: 485px;
     height: 230px;
-    left: 156px;
-    top: 207px;
+    /* margin-bottom: 207px;
+    margin-left: 156px;
+    margin-right: 102px; */
+    margin-bottom: 8px;
 
 }
 .title-text-info :hover{
@@ -110,6 +113,7 @@ header{
     align-items: center;
     justify-content: center;
     transition: width 1s;
+    margin-top: 8px;
 }
 
 .link-button:hover{
@@ -132,8 +136,8 @@ header{
     margin-bottom: 86px;
     /* margin-left: 102px; */
     margin-right: 80px;
-    background: url(1648334-world-cup-football-player-kick-off-football-kick-football-png-980_772_preview.png);
-transform: matrix(1, 0, 0, 1, 0, 0);
+    /* background: url(1648334-world-cup-football-player-kick-off-football-kick-football-png-980_772_preview.png);
+transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 
 /*--------------------------------------
@@ -181,4 +185,34 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 
 .player-info p{
     margin-top: 5px;
+}
+
+/*--------------------------------------------
+            Section of Blogs banner 
+---------------------------------------------*/
+.blogs-banner{
+    display: flex;
+
+}
+.highlights-text{
+    margin-top: 224px;
+    margin-bottom: 493px;
+    margin-left: 150px;
+    margin-right: 66px;
+}
+.highlights-text h1{
+    width: 469px;
+    height: 120px;
+    font-weight: bold;
+    color: #0A0826;
+    font-size: 48px;
+}
+.blogs-banner-images{
+    padding: 15px;
+}
+.blogs-banner img{
+    width: 560px;
+    height: 427px;
+    margin-right: 100px;
+    margin-top: 165px;
 }
